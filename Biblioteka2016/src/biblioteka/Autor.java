@@ -20,4 +20,15 @@ public class Autor {
 		this.prezime = prezime;
 	}
 
+	@Override
+	public String toString() {
+		return "Autor [ime=" + ime + ", prezime=" + prezime + "]";
+	}
+
+	public Autor(String ime, String prezime) {
+		super();
+		this.ime = ime;
+		this.prezime = prezime;
+	}
+
 }
